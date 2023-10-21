@@ -1,8 +1,44 @@
-h1{
-    color: black;
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('FondoInd.jpg')
 }
 
-.pag {
-    font-weight: bold;
-  }
+
+.container {
+    text-align: center;
+    margin: 150px;
+}
+
+
+h1 {
+    color: black;
+    font-size: 50px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+li {
+    display: inline;
+    margin: 0 10px;
+    font-size: 35px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+
+
+a:hover {
+    color: #c0c0c0;
+}
